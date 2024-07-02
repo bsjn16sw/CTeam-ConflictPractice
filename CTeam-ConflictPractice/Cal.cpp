@@ -14,7 +14,9 @@ public:
 	int getSumSum(int a, int b, int c) {
 		return (a + b + c);
 	}
-
+	int getDivide(int a, int b) {
+		return a / b;
+	}
 private:
 
 };
