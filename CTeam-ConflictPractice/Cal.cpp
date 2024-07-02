@@ -10,6 +10,10 @@ public:
 	int getMinus(int a, int b) {
 		return a - b;
 	}
+	int getZeGop(int a)
+	{
+		return a * a;
+	}
 
 private:
 
