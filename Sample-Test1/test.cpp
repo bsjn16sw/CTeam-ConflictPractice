@@ -13,3 +13,9 @@ TEST(CalTestSuite, CalTest1) {
 	// Assert
 	EXPECT_EQ(ret, 8);
 }
+
+TEST(TestCaseName, MinusTest) {
+	Cal calc;
+	EXPECT_EQ(calc.getMinus(5, 3), 2);
+}
+
