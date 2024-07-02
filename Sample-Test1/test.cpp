@@ -1,7 +1,8 @@
 #include "pch.h"
 #include "../CTeam-ConflictPractice/Cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
+TEST(CalTest, zegoptest) {
+	Cal cal;
+  EXPECT_EQ(cal.getZegop(2), 4);
   EXPECT_TRUE(true);
 }
