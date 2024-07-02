@@ -6,6 +6,11 @@ TEST(TestCaseName, TestName) {
   EXPECT_TRUE(true);
 }
 
+TEST(TestCaseName, test_zegop) {
+	EXPECT_EQ(1, 1);
+	EXPECT_TRUE(true);
+}
+
 TEST(TestCaseName, test_getGop) {
 	Cal cal;
 	EXPECT_EQ(10, cal.getGop(2, 5));
